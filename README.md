@@ -31,7 +31,9 @@ Download processed dataset as CSV
 Universal_Data_Analyzer/
 
 │── app.py              # Main Streamlit app
+
 │── requirements.txt    # Project dependencies
+
 │── README.md           # Project documentation
 
 
