@@ -37,7 +37,7 @@ Universal_Data_Analyzer/
 
 Clone the repository:
 
-git clone https://github.com/your-username/Universal_Data_Analyzer.git
+git clone https://github.com/Rangin-tech/DATA_PREDICTION/blob/main/README.md
 cd Universal_Data_Analyzer
 
 
