@@ -1,33 +1,87 @@
-# DATA_PREDICTION
+🤖 Universal Data Analyzer & Predictor
 
-A simple prediction app built with Python and Flask.
+A universal data analyzer and predictive modeling app built with Python and Streamlit. Upload any CSV or Excel file, explore your data, visualize distributions, detect outliers, and run predictions using regression or classification models — all in a web interface.
 
-![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Flask](https://img.shields.io/badge/flask-2.x-lightgrey)
-![License](https://img.shields.io/badge/license-MIT-green)
 
-## 🚀 Installation
-Clone the repo and install dependencies:
+🚀 Features
 
-'''bash
-git clone https://github.com/your-username/DATA_PREDICTION.git
-cd DATA_PREDICTION
+Upload CSV or Excel files for analysis
+
+Automatic data cleaning and preprocessing
+
+Numeric & categorical data exploration
+
+Histograms, scatter plots, and correlation matrices
+
+Missing value and outlier detection
+
+Predictive modeling:
+
+Regression (Linear Regression)
+
+Classification (Random Forest)
+
+Custom input for predictions
+
+Download processed dataset as CSV
+
+
+📂 Project Structure
+Universal_Data_Analyzer/
+│── app.py              # Main Streamlit app
+│── requirements.txt    # Project dependencies
+│── README.md           # Project documentation
+
+
+💻 Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/Universal_Data_Analyzer.git
+cd Universal_Data_Analyzer
+
+
+Install dependencies:
+
 pip install -r requirements.txt
 
+▶️ Run the App
+streamlit run app.py
 
-▶️ Run the app
-python app.py
 
-📌 Features
+Open your browser at http://localhost:8501 to use the app.
 
-Accepts input data
+📝 Usage
 
-Runs prediction model
+Upload your CSV or Excel file.
 
-Returns output in a web interface
+Explore the dataset using stats, histograms, scatter plots, and correlation.
 
-## 📂 Project Structure
+Detect missing values and outliers.
 
-DATA_PREDICTION/  
-│── app.py              # Main Flask application  
-│── requirements.txt    # Project dependencies  
+Select a target column to run regression or classification.
+
+Input custom values to make predictions.
+
+Download the processed dataset.
+
+
+⚙️ Dependencies
+
+Python 3.8+
+
+Streamlit
+
+Pandas
+
+NumPy
+
+Scikit-learn
+
+Matplotlib
+
+Seaborn
+
+Install all with:
+
+pip install -r requirements.txt
